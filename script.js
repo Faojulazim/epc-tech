@@ -22,6 +22,8 @@ closeIcon.addEventListener("click", (e) => {
   left.classList.add("translate-x-[-150%]");
 });
 
+console.log("s");
+
 //mobile size translate-x-[27px]
 const toggler = document.querySelectorAll("[data-languageSelection]");
 toggler.forEach((items) => {
